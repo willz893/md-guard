@@ -36,6 +36,16 @@ Inside a trusted folder, paths through `node_modules`, `site-packages`, `.venv*`
 - Claude Code with hooks and `claudeMdExcludes`, and/or Codex with hooks enabled
 - Windows, macOS or Linux (see [Limitations](#limitations) for what has been verified)
 
+## Official source
+
+md_guard is published only at <https://github.com/willz893/md-guard>. It is free, and it is not listed or sold
+on any skill or plugin marketplace.
+
+The MIT license lets anyone redistribute it, so copies may appear elsewhere. A hook runs code on your machine
+with your permissions: install md_guard only from this repository, or from a copy you have reviewed yourself.
+Treat paid or repackaged versions as untrusted. md_guard works through hooks; a "skill" version cannot enforce
+anything, because a skill is only text the agent is asked to follow.
+
 ## Install
 
 ```bash

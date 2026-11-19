@@ -32,6 +32,12 @@ md_guard は、**「従う指示は、ユーザー本人と、信頼フォルダ
 - フックと `claudeMdExcludes` に対応した Claude Code、またはフックを有効にした Codex
 - Windows / macOS / Linux（確認済みの範囲は「制限事項」を参照）
 
+## 正式な配布元
+
+md_guard の配布元は <https://github.com/willz893/md-guard> だけです。無料で、スキルやプラグインの販売サイトには出品していません。
+
+MIT ライセンスのため、誰でも再配布できます。ほかの場所に複製が出回ることもあります。フックは、あなたの PC 上であなたの権限で動くプログラムです。このリポジトリか、自分で中身を確認した複製からだけ入れてください。有料版や作り直された版は、信頼しないでください。md_guard はフックとして動きます。スキルは「AI に従うよう頼む文章」にすぎないため、スキル版では何も強制できません。
+
 ## インストール
 
 ```bash
@@ -81,6 +87,10 @@ python install.py --target codex --trusted ~/work/project-a --lang ja --apply
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+## セキュリティ
+
+脆弱性は [SECURITY.md](SECURITY.md) の手順で、非公開で報告してください。
 
 ## ライセンス
 
