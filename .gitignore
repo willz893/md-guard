@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+md_guard/logs/
+md_guard/trusted_roots.json
+backup/
+.venv*/

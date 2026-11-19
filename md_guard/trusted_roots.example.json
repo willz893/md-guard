@@ -1,0 +1,10 @@
+{
+  "_comment": "Copied to <agent home>/hooks/md_guard/trusted_roots.json by install.py. Edit that copy; changes apply on the next hook call. The agent home (~/.claude or ~/.codex) is always trusted.",
+  "lang": "en",
+  "trusted_roots": [],
+  "untrusted_dir_names": [
+    "node_modules", "site-packages", "dist-packages", ".venv*", "venv", "env",
+    "_internal", "third_party*", "vendor", "dist",
+    "downloads", "download", "uploads", "tool-results", "__macosx", "temp", "tmp"
+  ]
+}
