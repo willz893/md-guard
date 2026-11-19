@@ -1,5 +1,7 @@
 # Security policy
 
+Maintainer: [@willz893](https://github.com/willz893)
+
 ## Reporting a vulnerability
 
 Please report vulnerabilities **privately** through GitHub:
